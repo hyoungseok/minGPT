@@ -1,2 +1,6 @@
 .ipynb_checkpoints/
 __pycache__/
+.idea
+*.ipynb
+.DS_Store
+input.txt
