@@ -63,7 +63,7 @@ if __name__ == "__main__":
     model = GPT(model_config)
 
     trainer_config = TrainerConfig(
-        max_epoches=200,
+        max_epochs=200,
         batch_size=512,
         learning_rate=6e-4,
         lr_decay=True,
