@@ -3,8 +3,6 @@ from mingpt.utils import set_seed
 
 import numpy as np
 import torch
-import torch.nn as nn
-from torch.nn import functional as ftn
 
 from mingpt.model import GPT, GPTConfig
 
