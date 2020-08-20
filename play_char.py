@@ -58,7 +58,7 @@ if __name__ == "__main__":
         train_dataset.block_size,
         n_layer=8,
         n_head=8,
-        n_emb=512,
+        n_emb=768,
     )
     model = GPT(model_config)
 
@@ -74,7 +74,7 @@ if __name__ == "__main__":
     trainer = Trainer(model, train_dataset, None, trainer_config)
     trainer.train()
 
-    context = "O God, O God!"
+    context = "대한민국의 대통령"
     sample_x = torch.tensor(
         [train_dataset.char2idx[s] for s in context],
         dtype=torch.long,
