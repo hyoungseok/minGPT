@@ -58,7 +58,7 @@ if __name__ == "__main__":
         train_dataset.block_size,
         n_layer=8,
         n_head=8,
-        n_emb=768,
+        n_emb=512,
     )
     model = GPT(model_config)
 
