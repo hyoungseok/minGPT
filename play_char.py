@@ -50,7 +50,7 @@ class CharDataset(Dataset):
 
 if __name__ == "__main__":
     sample_block_size = 128
-    text = open("input.txt", "r").read()
+    text = open("input.txt", "r", encoding="utf-8").read()
     train_dataset = CharDataset(text, block_size=sample_block_size)
 
     model_config = GPTConfig(

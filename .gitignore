@@ -3,4 +3,4 @@ __pycache__/
 .idea
 *.ipynb
 .DS_Store
-input.txt
+input*.txt
